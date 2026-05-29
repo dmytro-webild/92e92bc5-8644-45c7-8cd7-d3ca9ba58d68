@@ -13,7 +13,7 @@ import ProductCardFour from '@/components/sections/product/ProductCardFour';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import TestimonialAboutCard from '@/components/sections/about/TestimonialAboutCard';
 import TestimonialCardFive from '@/components/sections/testimonial/TestimonialCardFive';
-import { Sparkles, Wrench, Settings, Disc, ShockAbsorber } from "lucide-react";
+import { Sparkles, Wrench, Settings, Disc, SlidersHorizontal } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -112,7 +112,7 @@ export default function LandingPage() {
           title: "Brakes & Discs",          description: "Expert inspection, repair, and replacement of brakes and discs for maximum safety on the road.",          buttonIcon: Disc,
           imageSrc: "http://img.b2bpic.net/free-photo/female-mechanic-oiling-car-brake_1170-1625.jpg",          imageAlt: "Car brake disc replacement"},
         {
-          title: "Shocks & Suspension",          description: "Specialized repairs and maintenance for your vehicle's shocks and suspension, ensuring a smooth ride.",          buttonIcon: ShockAbsorber,
+          title: "Shocks & Suspension",          description: "Specialized repairs and maintenance for your vehicle's shocks and suspension, ensuring a smooth ride.",          buttonIcon: SlidersHorizontal,
           imageSrc: "http://img.b2bpic.net/free-photo/mechanic-examining-car-using-flashlight_1170-1331.jpg",          imageAlt: "Car shocks and suspension repair"},
       ]}
       title="Our Comprehensive Services"
